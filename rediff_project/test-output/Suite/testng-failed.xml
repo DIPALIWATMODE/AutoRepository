@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RediffTest(failed)">
+    <classes>
+      <class name="verify_function.Porfoli_Management">
+        <methods>
+          <include name="create_portfolio"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- verify_function.Porfoli_Management -->
+      <class name="verify_function.User_session">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="do_login"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- verify_function.User_session -->
+    </classes>
+  </test> <!-- RediffTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

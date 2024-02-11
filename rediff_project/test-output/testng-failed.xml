@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="verify_function.Porfoli_Management">
+        <methods>
+          <include name="update_portfolio"/>
+          <include name="create_portfolio"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="delete_portfolio"/>
+        </methods>
+      </class> <!-- verify_function.Porfoli_Management -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
